@@ -36,7 +36,7 @@ var update = function (delay){
 
 window.onload = function(){
 
-  canvas = document.getElementById("main-canvas");
+  canvas = document.getElementById("primary_canvas");
   context = canvas.getContext("2d");
 
   var width = context.canvas.width = window.innerWidth;
