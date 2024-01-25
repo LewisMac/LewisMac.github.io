@@ -11,8 +11,8 @@ var createParticleEffect = function(x, y)
     particle.x = x;
     particle.y = y;
 
-    particle.color = "gold";
-    //particle.color = "#"+colourRed+colourGreen+colourBlue
+    //particle.color = "gold";
+    particle.color = "#"+colourRed+colourGreen+colourBlue
     var speed = 50.0;
     particle.velocityX = speed * Math.cos(angle * Math.PI / 180.0);
     particle.velocityY = speed * Math.sin(angle * Math.PI / 180.0);

@@ -7,7 +7,7 @@ function Particle ()
   this.color = "#000";
   this.velocityX = 0;
   this.velocityY = 0;
-  this.scaleSpeed = 2;
+  this.scaleSpeed = 0.2;
 
   this.update = function(time)
   {
@@ -35,7 +35,7 @@ function Particle ()
     context.arc(0, 0, this.radius, 0, Math.PI*2, true);
     context.closePath();
 
-    context.globalAlpha = 0.8;
+    context.globalAlpha = 0.2;
     context.fillStyle = this.color;
     context.fill();
 
