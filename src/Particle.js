@@ -4,6 +4,7 @@ function Particle ()
   this.x = 0;
   this.y = 0;
   this.radius = 5;
+  this.radius = math.random()*100
   this.color = "#000";
   this.velocityX = 0;
   this.velocityY = 0;
